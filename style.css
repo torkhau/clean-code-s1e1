@@ -27,12 +27,13 @@ body {
   margin: 0 auto 0;
 }
 .list-item__label/*,
-.list-item__input-text*/ {
+.list-item__input-text,
+.section-addind___new-task__input*/ {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.section-addind__new-task__wrapper {
   display: flex;
 }
 ul {
@@ -89,7 +90,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input#section-addind___new-task__input {
   width: 318px;
 }
 p > button:hover {
