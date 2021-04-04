@@ -14,41 +14,41 @@
       </a>
     </header>
     <main class="main">
-      <section id="section-addind">
-        <h3>Add Item</h3>
-        <div class="section-addind__new-task__wrapper">
-          <input id="section-addind__new-task__input"class="section-addind__new-task__input" type="text">
-          <button>Add</button>
+      <section id="section-adding">
+        <h3 class="header-of-section">Add Item</h3>
+        <div class="section-adding__new-task__wrapper">
+          <input id="section-adding__new-task__input" class="input_text section-adding__new-task__input" type="text">
+          <button class="btn">Add</button>
         </div>
       </section>
       <section>
-        <h3>Todo</h3>
+        <h3 class="header-of-section">Todo</h3>
         <ul id="list-incompleted">
-          <li>
-            <input type="checkbox">
-            <label class="list-item__label">Pay Bills</label>
-            <input type="text">
-            <button class="list-item__btn-edit">Edit</button>
-            <button class="list-item__btn-delete"><img src="./remove.svg" alt=""></button>
+          <li class="list-item">
+            <input type="checkbox" class="input_checkbox">
+            <label class="label">Pay Bills</label>
+            <input type="text" class="input_text list-item__input-text">
+            <button class="btn btn-edit">Edit</button>
+            <button class="btn btn-delete"><img src="./remove.svg" alt=""></button>
           </li>
-          <li class="list-item_edited">
-            <input type="checkbox">
-            <label class="list-item__label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="list-item__input-text">
-            <button class="list-item__btn-edit">Save</button>
-            <button class="list-item__btn-delete"><img src="./remove.svg" alt=""></button>
+          <li class=" list-item list-item_edited">
+            <input type="checkbox" class="input_checkbox">
+            <label class="label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="input_text list-item__input-text">
+            <button class="btn btn-edit">Save</button>
+            <button class="btn btn-delete"><img src="./remove.svg" alt=""></button>
           </li>
         </ul>
       </section>
       <section>
-        <h3>Completed</h3>
+        <h3 class="header-of-section">Completed</h3>
         <ul id="list-completed">
-          <li>
-            <input type="checkbox" checked>
-            <label class="list-item__label">See the Doctor</label>
-            <input type="text" class="list-item__input-text">
-            <button class="list-item__btn-edit">Edit</button>
-            <button class="list-item__btn-delete"><img src="./remove.svg" alt=""></button>
+          <li class="list-item">
+            <input type="checkbox" class="input_checkbox" checked>
+            <label class="label">See the Doctor</label>
+            <input type="text" class="input_text list-item__input-text">
+            <button class="btn btn-edit">Edit</button>
+            <button class="btn btn-delete"><img src="./remove.svg" alt=""></button>
           </li>
         </ul>  
       </section>
