@@ -36,13 +36,13 @@ body {
 
 .label,
 .list-item__input-text,
-.section-addind__new-task__input {
+.new-task-wrapper__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.section-addind__new-task__wrapper {
+.new-task-wrapper {
   margin-top: 20px;
   display: flex;
 }
@@ -162,15 +162,12 @@ section > button:hover {
 }
 
 /* Edit Task */
-.list-item .input_text {
+.list-item .input_text,
+.list-item_edited .label {
   display: none;
 }
 
 .list-item_edited .input_text {
   display: inline-block;
   width: 224px;
-}
-
-.list-item_edited .label {
-  display: none;
 }
